@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Migrations\\20251029074332_DaniloBarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API_BarberDanilo\\Migrations\\20251029074332_DaniloBarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\repositories\\efappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\repositories\\efappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\models\\dtos\\updateappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\models\\dtos\\updateappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\models\\dtos\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\models\\dtos\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\repositories\\inmemoryappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\repositories\\inmemoryappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\data\\barbershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\data\\barbershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\api_barberdanilo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\api_barberdanilo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|c:\\users\\josue\\source\\repos\\api_barberdanilo\\api_barberdanilo\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C93028C-3C0B-4852-95F4-BBB0EABB2F22}|API_BarberDanilo\\API_BarberDanilo.csproj|solutionrelative:api_barberdanilo\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251029074332_DaniloBarber.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Migrations\\20251029074332_DaniloBarber.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Migrations\\20251029074332_DaniloBarber.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Migrations\\20251029074332_DaniloBarber.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Migrations\\20251029074332_DaniloBarber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:43:32.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\User.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\User.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Models\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:41:07.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:37:26.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:49:00.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\Appointment.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:46:58.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\appsettings.json",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\appsettings.json",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\appsettings.json",
+              "RelativeToolTip": "API_BarberDanilo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T04:13:26.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateAppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\DTOs\\CreateAppointmentDto.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Models\\DTOs\\CreateAppointmentDto.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\DTOs\\CreateAppointmentDto.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Models\\DTOs\\CreateAppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:47:25.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateAppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\DTOs\\UpdateAppointmentDto.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Models\\DTOs\\UpdateAppointmentDto.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Models\\DTOs\\UpdateAppointmentDto.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Models\\DTOs\\UpdateAppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:47:34.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EfAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Repositories\\EfAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Repositories\\EfAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Repositories\\EfAppointmentRepository.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Repositories\\EfAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:46:12.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:49:09.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Program.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Program.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Program.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:53:30.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BarberShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Data\\BarberShopDbContext.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Data\\BarberShopDbContext.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Data\\BarberShopDbContext.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Data\\BarberShopDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:42:47.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InMemoryAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Repositories\\InMemoryAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Repositories\\InMemoryAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Repositories\\InMemoryAppointmentRepository.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Repositories\\InMemoryAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:50:38.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "API_BarberDanilo.csproj",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\API_BarberDanilo.csproj",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\API_BarberDanilo.csproj",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\API_BarberDanilo.csproj",
+              "RelativeToolTip": "API_BarberDanilo\\API_BarberDanilo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T05:29:07.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "API_BarberDanilo\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\josue\\source\\repos\\API_BarberDanilo\\API_BarberDanilo\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "API_BarberDanilo\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T19:49:25.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

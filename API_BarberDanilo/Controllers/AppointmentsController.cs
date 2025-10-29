@@ -16,11 +16,19 @@ namespace API_BarberDanilo.Controllers
             _appointmentService = appointmentService;
         }
 
+
+
         // GET: api/appointments  (Para que el admin vea todas las citas)
         [HttpGet]
-        // En un proyecto real, agregarías: [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllAppointments()
         {
+            // Verificación de rol Admin
+            var userRole = Request.Headers["X-User-Role"].ToString();
+            if (string.IsNullOrEmpty(userRole) || userRole != "Admin")
+            {
+                return Forbid("Solo los administradores pueden ver todas las citas");
+            }
+
             var appointments = await _appointmentService.GetAllAppointmentsAsync();
             return Ok(appointments);
         }
@@ -46,6 +54,11 @@ namespace API_BarberDanilo.Controllers
         // En un proyecto real, agregarías: [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateAppointment(int id, [FromBody] UpdateAppointmentDto updateDto)
         {
+            var userRole = Request.Headers["X-User-Role"].ToString();
+            if (string.IsNullOrEmpty(userRole) || userRole != "Admin")
+            {
+                return Forbid("Solo los administradores pueden modificar citas");
+            }
             var success = await _appointmentService.UpdateAppointmentAsync(id, updateDto);
             if (!success)
             {
@@ -58,7 +71,13 @@ namespace API_BarberDanilo.Controllers
         [HttpDelete("{id}")]
         // En un proyecto real, agregarías: [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteAppointment(int id)
+
         {
+            var userRole = Request.Headers["X-User-Role"].ToString();
+            if (string.IsNullOrEmpty(userRole) || userRole != "Admin")
+            {
+                return Forbid("Solo los administradores pueden eliminar citas");
+            }
             var success = await _appointmentService.DeleteAppointmentAsync(id);
             if (!success)
             {

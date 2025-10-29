@@ -46,6 +46,11 @@ namespace API_BarberDanilo.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
                     b.Property<string>("Service")
                         .IsRequired()
                         .HasMaxLength(50)

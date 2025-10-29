@@ -11,16 +11,32 @@ namespace API_BarberDanilo.Repositories
         public InMemoryAppointmentRepository()
         {
             // Datos de ejemplo para empezar
-            _appointments.Add(new Appointment { Id = _nextId++, CustomerName = "Juan Pérez", AppointmentDate = DateTime.Now.AddDays(1), Service = "Corte de Cabello" });
-            _appointments.Add(new Appointment { Id = _nextId++, CustomerName = "Carlos Solís", AppointmentDate = DateTime.Now.AddDays(2), Service = "Afeitado Clásico" });
+            _appointments.Add(new Appointment
+            {
+                Id = _nextId++,
+                CustomerName = "Juan Pérez",
+                PhoneNumber = "+506 8888-7777",
+                AppointmentDate = DateTime.Now.AddDays(1),
+                Service = "Corte de Cabello",
+                IsConfirmed = false
+            });
+            _appointments.Add(new Appointment
+            {
+                Id = _nextId++,
+                CustomerName = "Carlos Solís",
+                PhoneNumber = "8765-4321",
+                AppointmentDate = DateTime.Now.AddDays(2),
+                Service = "Afeitado Clásico",
+                IsConfirmed = true
+            });
         }
 
         public Task<IEnumerable<Appointment>> GetAllAsync()
         {
-            return Task.FromResult<IEnumerable<Appointment>>(_appointments);
+            return Task.FromResult<IEnumerable<Appointment>>(_appointments.OrderBy(a => a.AppointmentDate));
         }
 
-        public Task<Appointment> GetByIdAsync(int id)
+        public Task<Appointment?> GetByIdAsync(int id)
         {
             var appointment = _appointments.FirstOrDefault(a => a.Id == id);
             return Task.FromResult(appointment);
@@ -29,14 +45,19 @@ namespace API_BarberDanilo.Repositories
         public Task AddAsync(Appointment entity)
         {
             entity.Id = _nextId++;
+            entity.CreatedAt = DateTime.UtcNow;
             _appointments.Add(entity);
             return Task.CompletedTask;
         }
 
         public void Update(Appointment entity)
         {
-            // EF Core maneja esto automáticamente en escenarios conectados.
-            // Para la lista en memoria, la referencia ya está actualizada.
+            var existing = _appointments.FirstOrDefault(a => a.Id == entity.Id);
+            if (existing != null)
+            {
+                var index = _appointments.IndexOf(existing);
+                _appointments[index] = entity;
+            }
         }
 
         public void Delete(Appointment entity)
@@ -46,8 +67,7 @@ namespace API_BarberDanilo.Repositories
 
         public Task<int> SaveChangesAsync()
         {
-            // En un escenario en memoria, no hay nada que guardar, pero en EF Core esto confirmaría la transacción.
-            return Task.FromResult(1); // Retorna 1 como si una fila hubiera sido afectada.
+            return Task.FromResult(1);
         }
     }
 }

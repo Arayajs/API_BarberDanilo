@@ -3,10 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API_BarberDanilo.Models
 {
-    /// <summary>
-    /// Entidad que representa una cita en la barbería
-    /// </summary>
-    [Table("Appointments")]
+    
     public class Appointment
     {
         [Key]
@@ -18,15 +15,19 @@ namespace API_BarberDanilo.Models
         public string CustomerName { get; set; } = string.Empty;
 
         [Required]
+        [MaxLength(20)]
+        public string PhoneNumber { get; set; } = string.Empty;
+
+        [Required]
         public DateTime AppointmentDate { get; set; }
 
         [Required]
         [MaxLength(100)]
         public string Service { get; set; } = string.Empty;
 
-        public bool IsConfirmed { get; set; } = true;
+        public bool IsConfirmed { get; set; } = false;
 
-        // Campos de auditoría (opcional pero recomendado)
+        // Campos de auditoría
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public DateTime? UpdatedAt { get; set; }
